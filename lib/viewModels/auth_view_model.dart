@@ -129,10 +129,6 @@ class AuthViewModel extends GetxController {
     await AppNavigation().signOutUser();
   }
 
-  // void setPasswordObscure(bool value) {
-  //   isPasswordObscured.value = value;
-  // }
-
   // Method to toggle password obscurity
   void setPasswordObscure() {
     isPasswordObscured.value = !isPasswordObscured.value;

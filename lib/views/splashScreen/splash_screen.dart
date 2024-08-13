@@ -10,7 +10,7 @@ import 'package:task_manager_getx/wrappers/svg_image_loader.dart';
 import 'package:task_manager_getx/wrappers/widget_custom_animator.dart';
 import 'package:widget_and_text_animator/widget_and_text_animator.dart';
 
-import '../widgets/background_widget.dart';
+import 'package:task_manager_getx/views/widgets/background_widget.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

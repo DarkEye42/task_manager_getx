@@ -29,7 +29,7 @@ class SignInScreenForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final authViewModel = Get.find<AuthViewModel>();
+    final authViewModel = Get.put(AuthViewModel());
 
     return Form(
       key: formKey,
